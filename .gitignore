@@ -1,10 +1,25 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,azurefunctions,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,azurefunctions,python
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,azurefunctions,jupyternotebooks,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,azurefunctions,jupyternotebooks,python
 
 ### AzureFunctions ###
 # Azure Functions localsettings file
 local.settings.json
+*.ipynb
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+*.mp4
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -85,11 +100,8 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
-profile_default/
-ipython_config.py
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -219,7 +231,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,azurefunctions,python
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,azurefunctions,jupyternotebooks,python
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
